@@ -228,6 +228,10 @@ span[name*="labelInputContainer"] .input-control-m-c .editable-area.input-contro
     height: 100% !important;
 }
 
+.styling-font {
+    padding : 0px 5px !important;
+}
+
 /*Runtime Arabic*/
 
 .RuntimeAR span[name*="labelInputContainer"] .input-control-m-c,
@@ -247,7 +251,7 @@ span[name*="labelInputContainer"] input,
 .RuntimeEN [name*="FileNameAttachmentInput"],
 .RuntimeEN span[name*="labelInputContainer"] textarea,
 .RuntimeEN span[name*="labelInputSpecialContainer"] .input-control-wrapper a span {
-    text-align: left !important;
+    text-align: right !important;
 }
 
 .RuntimeAR span[name*="labelInputContainer"] .input-control-watermark,
@@ -257,7 +261,7 @@ span[name*="labelInputContainer"] input,
 .RuntimeAR [name*="FileNameAttachmentInput"],
 .RuntimeAR span[name*="labelInputContainer"] textarea,
 .RuntimeAR span[name*="labelInputSpecialContainer"] .input-control-wrapper a span {
-    text-align: right !important;
+    text-align: left !important;
 }
 
 span[name*="labelInputContainer"] input,
