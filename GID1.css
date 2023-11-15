@@ -603,7 +603,13 @@ span[name*="ChoicesInput"] .input-control-m-c {
     font-size: 13pt;
 }
 
-.RuntimeEN html,
+
 .RuntimeEN * {
-    direction: rtl !important;
+    direction: rtl ;
 }
+
+[name*="Conserve"] *:not(.panel-header *) {
+    direction : ltr
+}
+
+
