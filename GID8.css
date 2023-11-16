@@ -634,4 +634,8 @@ span[name*="ChoicesInput"] .input-control-m-c {
      font-size: 12pt;
 }
 
+[id*=PopupWin] {
+    z-index : 100 !important;
+}
+
 
