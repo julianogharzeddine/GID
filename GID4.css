@@ -617,9 +617,11 @@ span[name*="ChoicesInput"] .input-control-m-c {
     direction: rtl ;
 }
 
-[name*="Conserve"] *:not(.panel-header *) {
-    direction : ltr
+
+.RuntimeEN [name*="Conserve"] *:not(.panel-header *):not(.grid-header *):not(.filterContainer):not(.filter) {
+    direction : ltr;
 }
+
 
 
 [name*=Card] .SourceCode-Forms-Controls-Web-Label {
