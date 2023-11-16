@@ -526,7 +526,7 @@ div[name*="AttachmentsTable"] a[name*="Delete"] .button-icon {
 div[name*="AttachmentsTable"] .grid-column-headers .grid-column-header-text,
 div[name*="DisplayTable"] .grid-column-headers .grid-column-header-text {
     color: white !important;
-    height: fit-content ;
+    height: 60px  ;
     display: flex;
     align-items: center;
     justify-content: center;
