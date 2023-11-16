@@ -24,7 +24,7 @@
 
 :root {
     --card-title-color: #000000;
-    --secondarydark-bg-color: #0066cc;
+    --secondarydark-bg-color: #688234;
     --primary-bg-color: #edf0f4;
     --border-bottom-header-color: #EAECF0;
     --card-bg-color: white;
@@ -44,7 +44,7 @@
     --button-height: 45px;
     --button-icon-size: 20px;
     --loading-color: #dfdfdf;
-    --table-header-background-color: #388ce1;
+    --table-header-background-color: #688234cc;
     /* Icons url*/
     --file--icon: url("https://cdn.jsdelivr.net/gh/Nourjawhari/SWCC_Icons@main/file.png");
     --download-icon: url("https://cdn.jsdelivr.net/gh/Nourjawhari/SWCC_Icons@main/download.png");
@@ -242,6 +242,10 @@ span[name*="labelInputContainer"] .input-control-m-c .editable-area.input-contro
 span[name*="labelInputContainer"] input,
 [name*="FileNameAttachmentInput"] {
     padding: 0px 10px !important;
+}
+
+.input-control-watermark {
+    padding : 7px;
 }
 
 .RuntimeEN span[name*="labelInputContainer"] .input-control-watermark,
@@ -602,10 +606,11 @@ span[name*="ChoicesInput"] .input-control-m-c {
     border: none !important;
 }
 
-
+/*
 [name*=labelInput] .SourceCode-Forms-Controls-Web-Label {
     font-size: 13pt;
 }
+*/
 
 
 .RuntimeEN * {
@@ -614,6 +619,11 @@ span[name*="ChoicesInput"] .input-control-m-c {
 
 [name*="Conserve"] *:not(.panel-header *) {
     direction : ltr
+}
+
+
+[name*=Card] .SourceCode-Forms-Controls-Web-Label {
+     font-size: 12pt;
 }
 
 
