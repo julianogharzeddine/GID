@@ -142,6 +142,14 @@ div[name*="Card"] .grid-header-text span {
     padding-top: 5px;
 }
 
+.grid-header-text{
+    padding-bottom : 15px !important ;
+}
+
+.filterContainer {
+    padding : 20px ;
+}
+
 div[name*="Card"] .panel-header,
 div[name*="Card"] .grid-header {
     height: var(--card-header-height) !important;
