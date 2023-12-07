@@ -46,7 +46,7 @@
     --loading-color: #dfdfdf;
     --table-header-background-color: #688234cc;
 
-     --bg-color: #e5e6f6;
+     --bg-color: white;
     /* Main Background Color */
     --secondarylight-bg-color: #688234;
     /* Secondary Background Color - Used for sidebar , completed request , worklist headers (and button) */
