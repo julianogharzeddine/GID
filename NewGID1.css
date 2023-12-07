@@ -757,3 +757,9 @@ div[name*="Worklist Card WT"] span.text-underline {
     color: var(--secondarylight-bg-color) !important;
     border: 1px solid !important;
 }
+
+
+.OverdueImageDiv {
+    background : var(--secondarydark-bg-color) !important ;
+    border-radius : 50% ;
+}
